@@ -38,11 +38,14 @@ h2 {
 }
 
 .star.selected,
-.star:hover,
-.star:hover ~ .star {
+.star.hover { /* Removemos o ":hover" e o "~" e usaremos uma classe "hover" controlada pelo JS */
   color: gold;
 }
 
+/* Mantemos um hover simples só para a estrela atual, para dar resposta rápida */
+.star:hover {
+    color: gold;
+}
 textarea {
   width: 100%;
   height: 80px;
@@ -67,3 +70,4 @@ button {
 button:hover {
   background: #0056b3;
 }
+
