@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avaliação treinamento</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h2>Avaliação treinamento</h2>
+    <p>De 1 a 5, como você avalia a apresentação?</p>
+    <div class="stars" id="starRating">
+      <span class="star" data-value="1">★</span>
+      <span class="star" data-value="2">★</span>
+      <span class="star" data-value="3">★</span>
+      <span class="star" data-value="4">★</span>
+      <span class="star" data-value="5">★</span>
+    </div>
+
+    <textarea id="feedback" placeholder="O que pode melhorar?"></textarea>
+    <button onclick="enviar()">Enviar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
