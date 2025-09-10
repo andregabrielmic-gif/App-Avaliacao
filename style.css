@@ -3,7 +3,7 @@ body {
   background: #f5f7fa;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   min-height: 100vh;
   margin: 0;
 }
@@ -70,5 +70,6 @@ button {
 button:hover {
   background: #0056b3;
 }
+
 
 
